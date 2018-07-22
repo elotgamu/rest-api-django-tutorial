@@ -1,0 +1,13 @@
+__pycache__/
+.env
+venv/
+
+
+# SQLite database files
+
+*.sqlite3
+.DS_Store
+
+#Sublime settings
+*.sublime-project
+*-settings.sublime-workspace
