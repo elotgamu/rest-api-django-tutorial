@@ -29,11 +29,11 @@ class Snippet(models.Model):
 
     class Meta:
         verbose_name = "Snippet"
-        verbose_name_plural = "Snippets",
+        verbose_name_plural = "Snippets"
         ordering = ('created',)
 
     def __str__(self):
-        return "%s", self.pk
+        return "%s" % self.pk
 
     def get_absolute_url(self):
         # return ('')
