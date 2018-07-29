@@ -5,6 +5,8 @@ from . import views
 urlpatterns = [
     url(r'^snippets/$', views.GenericSnippetList.as_view()),
     url(r'^snippets/(?P<pk>[0-9]+)/$', views.GenericSnippetDetail.as_view()),
+    url(r'^users/$', views.UserList.as_view()),
+    url(r'^users/(?P<pk>[0-9]+)/$', views.UserDetail.as_view()),
 ]
 
 # handle suffix in urls
